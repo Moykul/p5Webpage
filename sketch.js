@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed === true) {
-    fill(220, 70, 90);
+    fill(210, 60, 60);
   circle(mouseX, mouseY, mouseX*mouseY/width);
   }
 }
